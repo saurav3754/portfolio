@@ -1,0 +1,100 @@
+@import 'utility.css';
+body{
+    background-color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+header{
+
+    background-color: black;
+    height: auto;
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+header nav .left a:hover{
+    color: aqua;
+}
+header nav{
+    padding: 2rem 0;
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.hero .right{
+    color: aliceblue;
+}
+.hero .right h6{
+    font-size:1.6rem;
+    color: aqua;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+.hero .right h1{
+    font-size:4rem;
+   font-weight: 100;
+   margin-bottom: 2rem;
+   margin-left: 2rem;
+   
+    margin-bottom: rem;
+}
+.hero .right h1 span{
+    color: aqua;
+}
+.hero .left {
+    height: 250px;
+    border-radius: 125px;
+    margin-bottom: 50px;
+    
+
+}
+section{
+    padding: 6rem 10rem;
+}
+section.about h1{
+   margin-bottom: 2rem;
+   font-size: 2rem;
+   font-weight: 400;
+   margin-left: 4rem;
+   
+}
+section.about h1 span{
+    color: aqua;
+
+    
+}
+section.about h3{
+    font-weight: 200;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+section.about p{
+    margin-left: 4rem;
+   margin-bottom: 6rem;
+}
+section.about .image3{
+    margin-left: 2rem;
+    
+}
+section.freelancer{
+    text-align: center;
+    color: aliceblue;
+   
+    
+}
+section.freelancer h1{
+    margin-bottom: 5rem;
+    font-size: 2.8rem;
+}
+section.freelancer h2{
+    margin-top: 2rem;
+}
+
